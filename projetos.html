@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Projetos - ONG Semeando o Futuro</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>ONG Semeando o Futuro</h1>
+
+        <button class="btn-mobile" id="btn-mobile">
+            <span class="linha-hamburger"></span>
+            <span class="linha-hamburger"></span>
+            <span class="linha-hamburger"></span>
+        </button>
+    
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li class="dropdown">
+                    <a href="projetos.html" class="drop-btn">Projetos ▼</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Horta Comunitária</a></li>
+                        <li><a href="#">Reforço Escolar</a></li>
+                        <li><a href="#">Oficina de Arte</a></li>
+                    </ul>
+                </li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main>
+        <section class="secao-projetos">
+            <h2>Nossos Projetos</h2>
+            <p>Conheça as iniciativas que estão mudando vidas.</p>
+            <div class="container-cards-grid">
+                <div class="card">
+                    <img src="imagens/horta.png" alt="Horta comunitária">
+                    <div class="card-corpo">
+                        <span class="badge">NOVO PROJETO</span>
+                        <h3>Horta Comunitária</h3>
+                        <p>Ensinamos crianças e famílias a cultivar alimentos orgânicos.</p>
+                        <a href="#" class="btn-secundario">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/reforco-escolar.png" alt="Reforço escolar">
+                    <div class="card-corpo">
+                        <h3>Reforço Escolar</h3>
+                        <p>Oferecemos aulas de reforço em matemática e português.</p>
+                        <a href="#" class="btn-secundario">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="imagens/oficina-arte.png" alt="Oficina de arte">
+                    <div class="card-corpo">
+                        <h3>Oficina de Arte</h3>
+                        <p>Um espaço para crianças expressarem sua criatividade.</p>
+                        <a href="#" class="btn-secundario">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="divisor">
+
+        <section>
+            <h2>Seja um Voluntário</h2>
+            <p>Seu tempo e talento podem fazer uma enorme diferença. Procuramos voluntários para diversas áreas.</p>
+            <a href="cadastro.html" class="btn">Quero me cadastrar</a>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
