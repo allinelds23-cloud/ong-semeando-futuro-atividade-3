@@ -430,5 +430,25 @@ main {
     border: none;
     cursor: pointer;
 }
+.high-contrast {
+    background-color: #000000;
+    color: #ffff00; /* amarelo forte */
+}
+
+.high-contrast a {
+    color: #00ffff; /* ciano */
+}
+
+.contrast-btn {
+    margin: 10px;
+    padding: 8px 12px;
+    background: #ffff00;
+    color: #000;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 
