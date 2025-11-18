@@ -1,0 +1,73 @@
+# 🌱 ONG Semeando o Futuro — Projeto Web (Entrega IV)
+
+Este repositório contém o desenvolvimento completo do site da ONG Semeando o Futuro, criado para a disciplina de Experiências Práticas – Unidade IV.  
+Nesta entrega, foram aplicadas técnicas profissionais de versionamento, acessibilidade, otimização e deploy.
+
+---
+
+## ✔️ 1. Versionamento (Git/GitHub)
+
+- Estrutura de versionamento baseada no modelo GitFlow  
+- Criação e uso de branches  
+- Commits semânticos e organizados  
+- Pull Requests utilizados durante o desenvolvimento  
+- Issues e milestones criadas para controle das tarefas  
+- Repositório configurado como **público**, conforme regras da entrega
+
+---
+
+## ✔️ 2. Acessibilidade — WCAG 2.1 Nível AA
+
+O site foi ajustado seguindo boas práticas de acessibilidade:
+
+- Navegação completa via teclado  
+- Estrutura semântica revisada  
+- Contraste mínimo garantido  
+- Textos alternativos em imagens  
+- Suporte para leitores de tela  
+- Inclusão de **Modo Escuro Acessível**  
+- Inclusão de **Modo de Alto Contraste**  
+
+### 🔧 Funcionalidades implementadas:
+- `dark-mode.js` → alterna para modo escuro  
+- `high-contrast.js` → alterna para alto contraste  
+- Botões acessíveis adicionados ao HTML  
+- CSS ajustado para garantir visibilidade e contraste
+
+---
+
+## ✔️ 3. Otimização para Produção
+
+- Arquivo CSS **minificado**  
+- Imagens otimizadas  
+- Código preparado para ambiente de produção  
+- Estrutura organizada em pastas (`css`, `js`, `img`)
+
+---
+
+## ✔️ 4. Deploy (GitHub Pages)
+
+O site foi publicado utilizando GitHub Pages.  
+Site online e funcionando via HTTPS.
+
+📎 **Link do site publicado:**  
+
+
+---
+
+## ✔️ 5. Tecnologias Utilizadas
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git e GitHub  
+- GitHub Pages
+
+---
+
+## 📘 Autor
+
+**Alline Lima**  
+Estudante de Análise e Desenvolvimento de Sistemas — Cruzeiro do Sul  
+2025
+
